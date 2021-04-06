@@ -1,13 +1,20 @@
+
+
 body {
     font-family: Arial;
    
 }
 
-a:link, a:hover {
+a{
     text-decoration: none;
 }
-
-.nav {
+    a:link, a:visited {
+        
+        color:#000000;
+        
+     
+    }
+        .nav {
     padding-top: 10px;
     text-align: left;
     display: flex;
@@ -120,8 +127,9 @@ a:link, a:hover {
 footer {
     background: #f2f2f2;
     border-top: solid 2px #e4e4e4;
-    margin-top:360px;
+    margin-top: 360px;
     width: 100%;
+    border-bottom: solid 10px #f2f2f2;
 }
 footer .footer a
 {
@@ -136,7 +144,7 @@ footer .footer .first {
 
 footer .second 
 {
-    padding-left: 40px;
+    padding-left: 30px;
     display: flex;
     justify-content: space-between;
     opacity:0.7;    
@@ -152,7 +160,8 @@ footer .second .items
 }
 footer .right
 {
-    margin-left:200px;
+    margin-left:100px;
+    margin-right:30px;
 }
     footer .right .r-item {
         
@@ -161,5 +170,10 @@ footer .right
     }
 
     footer .middle {
-        margin-left: 200px;
+        margin-left: 100px;
+    }
+
+    footer .middle img
+    {
+        height:80%
     }
